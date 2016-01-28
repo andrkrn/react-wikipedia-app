@@ -1,0 +1,55 @@
+.wikipedia-app {
+  padding-top: 2em;
+}
+
+.wikipedia-form {
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+@media screen and (max-width: 400px) {
+  .wikipedia-form {
+    width: auto;
+  }
+}
+
+.wikipedia-form,
+.text-center {
+  text-align: center;
+}
+
+.mar-left-10 {
+  margin-left: 10px;
+}
+
+.result {
+  display: block;
+  color: #333;
+  padding: .5em 1em;
+  border-left: 5px solid transparent;
+  -webkit-transition: .2 all ease-in-out;
+  transition: .2 all ease-in-out;
+}
+
+.result:hover {
+  color: #111;
+  background: #f6f6f6;
+  border-left: 5px solid #333;
+  -webkit-transition: .2 all ease-in-out;
+  transition: .2 all ease-in-out;
+}
+
+
+.result h4 {
+  padding: 0;
+}
+
+.result p {
+  margin: 0;
+}
+
+.loading {
+  display: block;
+  margin: 0 auto;
+}
